@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/voice_step1_cancel_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="22dp"
+        android:padding="8dp"
+        android:text="@string/btn_cancel_txt"
+        android:textColor="@color/voice_txt_color"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/transparent"
+        android:src="@drawable/say_desc_img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.example.voicerecognition.utils.BaseLoadingView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:alpha="0.7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/listitem_left"
+            android:text="@string/voice_ready_txt"
+            android:textColor="@color/txt_listitem_title"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

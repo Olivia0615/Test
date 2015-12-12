@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="title_dimens">40dp</dimen>
+    <dimen name="listitem_padding">8dp</dimen>
+    <dimen name="listitem_left">8dp</dimen>
+    <dimen name="listitem_right">8dp</dimen>
+    <dimen name="listitem_top">12dp</dimen>
+    <dimen name="listitem_bottom">12dp</dimen>
+    <dimen name="listitem_diver_padding">4dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="layout_height">40dp</dimen>
+    <dimen name="listitem_height">40dp</dimen>
+    <dimen name="icon_size">16dp</dimen>
+    <dimen name="title_height">26dp</dimen>
+    <dimen name="radius">5dp</dimen>
+
+</resources>

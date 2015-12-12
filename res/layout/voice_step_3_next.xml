@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/global_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/voice_step3_cancel_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="22dp"
+        android:padding="8dp"
+        android:text="@string/btn_cancel_txt"
+        android:textColor="@color/voice_txt_color"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/listitem_left"
+        android:paddingRight="@dimen/listitem_right"
+        android:text="@string/voice_make_next_txt"
+        android:textColor="@color/txt_listitem_title"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/voice_step3_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/voice_next_btn_bg"
+        android:gravity="center"
+        android:minHeight="32dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="@string/voice_make_next_btn"
+        android:textColor="@drawable/voice_next_btn_txt"
+        android:textSize="16dp"
+        android:visibility="visible" />
+
+</LinearLayout>

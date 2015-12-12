@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VoiceRecognition</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
+    
+    
+    <string name="btn_cancel_txt">取消</string>
+    <string name="btn_reset_txt">重设声音锁</string>
+    <string name="voice_ready_txt">准备中，请稍后...</string>
+    <string name="voice_say_desc_txt">请按住按钮，贴近手机下方话筒，匀速读出这句话</string>
+    <string name="voice_say_content_txt">和米粉交朋友</string>
+    <string name="voice_make_next_txt">已完成第一步，请继续</string>
+    <string name="voice_make_next_btn">下一步</string>
+    <string name="voice_make_finsh_desc_txt">声音锁制作完成</string>
+    <string name="voice_make_finsh_use_txt">将可通过验证声音解锁数据中心</string>
+    <string name="voice_make_finsh_try">尝试解锁</string>
+    <string name="voice_say_error_1txt">录音时间太短，请按住说话</string>
+    <string name="voice_say_error_2txt">请注意，两次录制的声音需要一致，才能创建声音锁。</string>
+    
+    <string name="voice_verify_1txt">我们需要验证你的声音</string>
+    <string name="voice_verify_2txt">请按住按钮，读出下面的这句话</string>
+    
+    
+    <string name="view_record_wav">录音WAV文件</string>
+    <string name="view_record_amr">录音AMR文件</string>
+    <string name="view_stop">停止录音</string>
+    <string name="error_no_sdcard">没有SD卡，无法存储录音数据</string>
+    <string name="error_state_record">正在录音中，请先停止录音</string>
+    <string name="error_unknown">无法识别的错误</string>
+
+</resources>

@@ -1,0 +1,13 @@
+#应用程序序号
+#appKey=c85d54f1
+appKey=585d5456
+
+#开发者密钥
+#developerKey=712ddd892cf9163e6383aa169e0454e3
+developerKey=40d1283cc24745328b6a892621e51866
+
+#灵云云服务的接口地址
+cloudUrl=test.api.hcicloud.com:8888
+
+#需要运行的灵云能力
+capKey=vpr.cloud.verify

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/global_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@color/transparent"
+        android:src="@drawable/voice_finsh_ok" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/listitem_left"
+        android:paddingRight="@dimen/listitem_right"
+        android:text="@string/voice_make_finsh_desc_txt"
+        android:textColor="@color/txt_listitem_title"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/listitem_left"
+        android:paddingRight="@dimen/listitem_right"
+        android:text="@string/voice_make_finsh_use_txt"
+        android:textColor="@color/txt_listitem_title"
+        android:textSize="14dp"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/listitem_left"
+        android:layout_marginRight="@dimen/listitem_right"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/voice_finsh_try_btn"
+        android:gravity="center"
+        android:minHeight="32dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/white"
+        android:text="@string/voice_make_finsh_try"
+        android:textSize="16dp"
+        android:visibility="visible" />
+
+</LinearLayout>
